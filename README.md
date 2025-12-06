@@ -23,9 +23,9 @@ ros2_ws/
 ├── install/ # Installed package files (ignored)
 └── log/ # Build/run logs (ignored)
 
-Only the `src/` folder contains tracked source code.
-
 ```
+
+Only the `src/` folder contains tracked source code.
 
 ---
 
