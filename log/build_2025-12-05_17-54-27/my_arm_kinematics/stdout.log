@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target my_arm_kinematics_plugin[0m
+[100%] Built target my_arm_kinematics_plugin
+-- Install configuration: ""
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/my_arm_kinematics_plugin_description.xml
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/lib/libmy_arm_kinematics_plugin.so
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/include
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/include/my_arm_kinematics
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/include/my_arm_kinematics/my_arm_kinematics_plugin.h
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/my_arm_kinematics_plugin_description.xml
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/my_arm_kinematics
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/my_arm_kinematics
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/environment/ament_prefix_path.sh
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/environment/path.sh
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/environment/path.dsv
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/local_setup.bash
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/local_setup.sh
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/local_setup.zsh
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/local_setup.dsv
+-- Installing: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/package.dsv
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/ament_index/resource_index/packages/my_arm_kinematics
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/ament_index/resource_index/kinematics_base__pluginlib__plugin/my_arm_kinematics
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/cmake/my_arm_kinematicsConfig.cmake
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/cmake/my_arm_kinematicsConfig-version.cmake
+-- Up-to-date: /home/elijahcmv/projects/robotarm/ros2_ws/install/share/my_arm_kinematics/package.xml

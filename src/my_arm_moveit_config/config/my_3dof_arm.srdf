@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="my_3dof_arm">
+
+  <!-- Arm group: 3 DOF + virtual wrist DOF (constrained by IK) -->
+  <group name="arm">
+    <joint name="joint1_yaw"/>
+    <joint name="joint2_shoulder"/>
+    <joint name="joint3_elbow"/>
+    <joint name="joint4_wrist_pitch"/>
+  </group>
+
+  <!-- Gripper group: actuated finger only -->
+  <group name="gripper">
+    <joint name="left_finger_joint"/>
+  </group>
+
+  <!-- Named states for the arm -->
+  <group_state name="home" group="arm">
+    <joint name="joint1_yaw" value="0"/>
+    <joint name="joint2_shoulder" value="0"/>
+    <joint name="joint3_elbow" value="0"/>
+    <joint name="joint4_wrist_pitch" value="0"/>
+  </group_state>
+
+  <group_state name="extended" group="arm">
+    <joint name="joint1_yaw" value="0"/>
+    <joint name="joint2_shoulder" value="1.57"/>
+    <joint name="joint3_elbow" value="-1.57"/>
+    <joint name="joint4_wrist_pitch" value="0"/>
+  </group_state>
+
+  <group_state name="folded" group="arm">
+    <joint name="joint1_yaw" value="0"/>
+    <joint name="joint2_shoulder" value="-1.57"/>
+    <joint name="joint3_elbow" value="1"/>
+    <joint name="joint4_wrist_pitch" value="0"/>
+  </group_state>
+
+  <!-- End effector: gripper attached to the wrist -->
+  <end_effector name="gripper"
+                parent_link="wrist_link"
+                group="gripper"/>
+
+  <!-- World to base fixed virtual joint -->
+  <virtual_joint name="world_joint"
+                 type="fixed"
+                 parent_frame="world"
+                 child_link="base_link"/>
+</robot>

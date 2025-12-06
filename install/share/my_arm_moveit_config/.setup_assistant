@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: my_arm_description
+    relative_path: urdf/my_arm.urdf.xacro
+  srdf:
+    relative_path: config/my_3dof_arm.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1764874888
