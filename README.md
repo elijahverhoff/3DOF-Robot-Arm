@@ -12,6 +12,8 @@ This workspace is organized for **ROS 2 Humble** on Linux (WSL2 or Ubuntu).
 ---
 
 ## Workspace Structure
+
+```text
 ros2_ws/
 ├── src/
 │ ├── my_arm_description/ # URDF, meshes, RViz display launch
@@ -22,6 +24,8 @@ ros2_ws/
 └── log/ # Build/run logs (ignored)
 
 Only the `src/` folder contains tracked source code.
+
+```
 
 ---
 
