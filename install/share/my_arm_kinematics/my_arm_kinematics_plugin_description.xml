@@ -1,9 +1,0 @@
-<library path="libmy_arm_kinematics_plugin">
-  <class name="my_arm_kinematics/MyArmKinematicsPlugin"
-         type="my_arm_kinematics::MyArmKinematicsPlugin"
-         base_class_type="kinematics::KinematicsBase">
-    <description>
-      Analytic IK for 3-DOF arm using closed-form geometry.
-    </description>
-  </class>
-</library>
