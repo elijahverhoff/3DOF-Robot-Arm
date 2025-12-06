@@ -48,7 +48,9 @@ The primary URDF/XACRO file is: `src/my_arm_description/urdf/my_arm.urdf.xacro`
 This project includes a custom analytic IK solver implemented as a MoveIt 2 kinematics plugin.
 
 Plugin source: `src/my_arm_kinematics/src/my_arm_kinematics_plugin.cpp`
+
 Plugin export description: `src/my_arm_kinematics/my_arm_kinematics_plugin_description.xml`
+
 MoveIt is configured to load this solver via: `src/my_arm_moveit_config/config/kinematics.yaml`
 
 The solver computes closed-form IK using the geometric relationships between link lengths:
@@ -88,7 +90,7 @@ ros2 launch my_arm_description display.launch.py
 
 ## Controllers
 
-This project currently uses simulated controllers configured via: src/my_arm_moveit_config/config/ros2_controllers.yaml
+This project currently uses simulated controllers configured via: `src/my_arm_moveit_config/config/ros2_controllers.yaml`
 
 You can extend this file to match real hardware.
 
